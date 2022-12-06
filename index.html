@@ -3,9 +3,84 @@
 <head>
   <meta charset="UTF-8">
   <title>Form</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+ <script src="https://cdn.freecodecamp.orgfood-fcc/v1/bundle.js"></script>
 <h1 id="title">Wilfred's and alejandro's form</h1>
 <p id="description">this is an exercise for microverse</p>
+<form id="survey-form">
+  <label id="name-label" for="name">Name</label>
+  <input
+  type="text"; id="name"; placeholder="Enter your Name"
+  />
+  <label id="email-label" for="email">Email</label>
+  <input
+  type="email"; id="email"; placeholder="Enter your email"
+  />
+  <label id="number-label" for="number">Age</label>
+<input
+  type="number"
+  name="age"
+  id="number"
+  placeholder="Age"
+  min="18"
+  max="65"
+/>
+
+<select id="dropdown">
+  <option>dog</option>
+  <option>cat</option>
+</select>
+<label>
+<input
+  name="gender"
+  value="Male"
+  type="radio"
+  checked/>Male</label>
+
+  <label>
+    <input
+      name="gender"
+      value="Female"
+      type="radio"
+      />Female</label>
+
+     
+
+      <label
+        ><input
+          name="checkbox"
+          value="rice"
+          type="checkbox"
+          class="input-checkbox"
+        />Rice</label
+      >
+      <label>
+        <input
+          name="checkbox"
+          value="meat"
+          type="checkbox"
+          class="input-checkbox"
+        />Meat</label
+      >
+      <label
+        ><input
+          name="checkbox"
+          value="beans"
+          type="checkbox"
+          class="input-checkbox"
+        />Beans</label
+      >
+      <label>Comments</label>
+      <textarea
+            id="comments"
+            name="comment"
+            placeholder="Enter your comments here..."
+          ></textarea>
+
+<button id="submit"
+type="submit">Submit</button>      
+
+</form>
 </body>
